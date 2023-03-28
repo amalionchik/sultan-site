@@ -1,0 +1,25 @@
+@import "_nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.App {
+	padding: 0px calc(277 / 1920 * 100%) 0px calc(277 / 1920 * 100%);
+	font-family: 'Inter', sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	overflow-x: hidden;
+	background: #fff;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__element {
+		margin: 0px 7px 0px 7px;
+	}
+}

@@ -1,0 +1,33 @@
+.myinput {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background: #EDEDED;
+	border-radius: 36px;
+	padding: 0 10px 0 0;
+
+
+	&__input {
+		background: #EDEDED;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 150%;
+		color: #5C6370;
+		padding: 20.5px 0 20.5px 20px;
+		border-radius: 36px;
+	}
+
+	&__button {
+		width: 40px;
+		height: 40px;
+		background: #FFC85E;
+		border-radius: 50%;
+		margin-left: 5px;
+	}
+
+	&__loop {
+	}
+}

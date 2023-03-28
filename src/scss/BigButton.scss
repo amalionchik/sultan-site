@@ -1,0 +1,22 @@
+.bigbutton {
+	
+	color: #fff;
+	padding: 21px 54px 21px 54px;
+	background: #FFC85E;
+	border-radius: 79px;
+	display: flex;
+
+	&__name {
+		margin: 0px 6px 0px 6px;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		white-space: nowrap;
+	}
+
+	&__image {
+		margin: 0px 6px 0px 6px;
+	}
+}

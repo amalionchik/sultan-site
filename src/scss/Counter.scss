@@ -1,0 +1,41 @@
+.counter {
+	display: flex;
+	align-items: center;
+
+	&__decrement {
+		font-style: normal;
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 15px;
+		text-align: center;
+		color: #3F4E65;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 4px 14px;
+		background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+		border-radius: 1000px;
+	}
+	
+	&__value {
+		margin: 0px 20px 0px 20px;
+	}
+	
+	&__increment {
+		font-style: normal;
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 15px;
+		text-align: center;
+		color: #3F4E65;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 4px 14px;
+		background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+		border-radius: 1000px;	
+	}
+
+}

@@ -1,0 +1,115 @@
+.footer {
+
+	background: #3F4E65;
+	padding: 70px calc(277 / 1920 * 100%) 116px calc(277 / 1920 * 100%);
+	margin: 100px -20.3% 0px -20.3%;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+
+	&__mainColumn {
+
+		&_logo {
+			margin-bottom: 15px;
+		}
+
+		&_text {
+			max-width: 320px;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 150%;
+			margin-bottom: 45px;
+		}
+
+		&_input {
+			max-width: 300px;
+		}
+
+		&_inputTitle {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 150%;
+			margin-bottom: 15px;
+		}
+	}
+
+	&__column {
+
+		&_title {
+			font-style: normal;
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 150%;
+			margin-bottom: 25px;
+		}
+
+		&_element {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 150%;
+			margin: 20px 0px 0px 0px;
+		}
+
+		&_icons {
+			margin-top: 15px;
+		}
+
+		&_whatsapp {
+			margin-right: 5px;
+		}
+
+		&_telegram {
+			margin-left: 5px;
+		}
+
+		&_info {
+		}
+
+		&_infoNumber {
+			font-style: normal;
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 150%;
+		}
+
+		&_infoWorktime {
+			font-style: normal;
+			font-weight: 300;
+			font-size: 12px;
+			line-height: 150%;
+		}
+
+		&_infoOrder {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 10px;
+			line-height: 150%;
+			text-decoration-line: underline;
+		}
+
+		&_email {
+			margin: 25px 0px 25px 0px;
+		}
+
+		&_emailTitle {
+			font-style: normal;
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 130.02%;
+		}
+
+		&_emailSubtitle {
+			font-size: 12px;
+			font-weight: 300;
+			line-height: 16px;
+			letter-spacing: 0em;
+		}
+
+		&_icon {
+			margin-right: 5px;
+		}
+	}
+}
